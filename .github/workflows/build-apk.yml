@@ -45,12 +45,12 @@ jobs:
         python -m pip install --upgrade pip
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
         pip install gitpython flet
+        # Flet build génère l'APK dans le dossier ./build/apk ou selon l'output spécifié
+    - name: Accept Android Licenses
+      run: yes | flutter doctor --android-licenses
 
     - name: Build APK with Flet
       run: |
-        # Flet build génère l'APK dans le dossier ./build/apk ou selon l'output spécifié
-         - name: Accept Android Licenses
-        yes | flutter doctor --android-licenses
         flet build apk --output portail_etudiant.apk
 
     - name: Create Release
