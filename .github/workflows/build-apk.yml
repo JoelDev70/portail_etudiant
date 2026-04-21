@@ -49,6 +49,8 @@ jobs:
     - name: Build APK with Flet
       run: |
         # Flet build génère l'APK dans le dossier ./build/apk ou selon l'output spécifié
+         - name: Accept Android Licenses
+        yes | flutter doctor --android-licenses
         flet build apk --output portail_etudiant.apk
 
     - name: Create Release
