@@ -1,0 +1,2 @@
+date_paiement,matricule,nom,prenom,montant_du,montant_paye,mode,statut,reference
+2026-04-18 09:21:54,MAT2024001,Diallo,Awa,0.00,100000.00,Virement,en_attente,PAY-002

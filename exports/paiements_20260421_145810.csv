@@ -1,0 +1,4 @@
+date_paiement,matricule,nom,prenom,montant_du,montant_paye,mode,statut,reference
+2026-04-21 13:21:27,MAT2024001,Diallo,Awa,0.00,100000.00,Virement,en_attente,PAY-002
+2026-04-21 13:21:27,MAT2024001,Diallo,Awa,500000.00,300000.00,Mobile Money,valide,PAY-001
+2026-04-21 13:21:27,MAT2024002,Traoré,Moussa,500000.00,500000.00,Espèces,valide,PAY-003
